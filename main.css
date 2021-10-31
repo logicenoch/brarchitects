@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: white;
+  text-align: right;
+  padding: 1em;
+  display: block;
+  position: sticky;
+}
+
+.left-nav {
+  float: left;
+}
+
+nav a {
+  text-decoration: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 0 1em;
+  color: black;
+  font-size: 1em;
+}
+
+nav a:hover {
+  background-color: gray;
+  border-radius: 0.3em;
+  padding: 0.8em 1em;
+}
+
+.hero-bg {
+  background-image: url(images/662167.jpg);
+  height: 100vh;
+  width: 98.8vw;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.h1-section h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+  font-weight: lighter;
+  color: rgb(255, 255, 255);
+  padding: 20%;
+  font-size: 8em;
+}
+
+.h1-section span {
+  background-color: rgb(0, 0, 0, 0.6);
+  color: rgba(255, 255, 255);
+  padding: 0 0.4em;
+  font-weight: bolder;
+}
+
+.project-section {
+  padding: inherit;
+  display: block;
+  margin: 2em 1em 0em 1em;
+}
+
+.project-section h2,
+.title {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: lighter;
+  border-bottom: 0.1em solid rgb(211, 211, 211);
+  padding: 0em 1em;
+  padding-bottom: 0.4em;
+  margin-bottom: 1em;
+}
+
+.display-project {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+.display-project p {
+  position: absolute;
+  margin-left: 0.34em;
+  margin-top: 0.33em;
+  background-color: black;
+  color: rgb(255, 255, 255);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 5px;
+  z-index: 10;
+}
+
+.display-project img {
+  margin: 0 auto;
+  position: relative;
+  width: 20em;
+  padding: 0.33em;
+} 
+
+.about-section {
+  margin: 2em 1em 2em 1em;
+}
+
+.about-section p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: small;
+  font-weight: lighter;
+}
+
+.owner-cards {
+  margin-top: 2em;
+}
+
+.owner-cards img {
+  width: 100%;
+  display: inline-block;
+}
+
+.card {
+  width: 24%;
+  display: inline-block;
+}
+
+.card .name {
+  text-align: left;
+  font-weight: bolder;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 1.5em;
+}
+
+.card .office {
+  text-align: left;
+  font-weight: bolder;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1em;
+  color: gray;
+}
+
+.card .about_card {
+  font-weight: lighter;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 0.8em;
+}
+
+.card .contact-btn {
+  border: none;
+  background-color: rgb(211, 208, 208);
+  text-align: center;
+  width: 100%;
+  padding: 15px 10px;
+  cursor: pointer;
+  margin-top: 4px;
+  border-radius: 5px;
+}
+
+.contact-btn:hover {
+  background-color: rgb(194, 194, 194);
+}
+
+.form-section {
+  position: relative;
+  margin: 2em 1em 2em 1em;
+}
+
+.text-area {
+  margin: 0.3em 2em 0em 0em;
+  width: 94%;
+  padding: 15px;
+}
+#send-btn {
+  border: none;
+  margin-top: 9px;
+  padding: 10px;
+  background-color: black;
+  color: white;
+}
+
+#send-btn:hover {
+  background-color: rgb(204, 204, 204);
+  color: black;
+}
+
+footer {
+  background-color: black;
+}
+
+footer p {
+  background-color: black;
+  text-align: center;
+  color: bisque;
+  display: block;
+  padding: 50px;
+}
